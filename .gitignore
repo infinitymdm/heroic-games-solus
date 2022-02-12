@@ -1,0 +1,5 @@
+# Ignore abi_* folders
+abi_*
+
+# Ignore comiled packages
+*.eopkg

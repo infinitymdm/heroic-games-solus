@@ -34,7 +34,14 @@ setup      : |
 build      : |
     yarn dist tar.xz
 install    : |
-    install -dm00755 $installdir/usr/share/Heroic
+    export heroicdir=/usr/share/heroic
+    install -dm00755 $installdir/$heroicdir
     install -dm00755 $installdir/usr/bin
-    cp -R ./dist/linux-unpacked/* $installdir/usr/share/Heroic/
-    ln -s /usr/share/Heroic/heroic $installdir/usr/bin/heroic
+
+    # Copy dist files and link binaries
+    cp -R ./dist/linux-unpacked/* $installdir/$heroicdir/
+    ln -s $heroicdir/heroic $installdir/usr/bin/heroic
+    ln -s $heroicdir/resources/app.asar.unpacked/build/bin/linux/legendary $installdir/usr/bin/legendary
+
+    # Copy icon
+    install -D -m00644 ./dist/linux-unpacked/resources/app.asar.unpacked/build/icon.png $installdir/usr/share/icons/hicolor/512x512/apps/heroic.png
