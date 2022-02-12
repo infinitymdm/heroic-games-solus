@@ -37,4 +37,4 @@ install    : |
     install -dm00755 $installdir/usr/share/Heroic
     install -dm00755 $installdir/usr/bin
     cp -R ./dist/linux-unpacked/* $installdir/usr/share/Heroic/
-    ln -s /usr/share/Heroic/heroic $installdir/usr/bin/Heroic
+    ln -s /usr/share/Heroic/heroic $installdir/usr/bin/heroic
