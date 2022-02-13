@@ -5,6 +5,7 @@ source     :
     - https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/archive/refs/tags/v2.1.1.tar.gz : 2440ca9b3ddf53fd60c5c7f7f7e48cbf3731bbf229c4720bf4e7ab1050284ca3
 license    : GPL-3.0-or-later
 component  : games
+networking : yes
 summary    : An Open Source alternative to the Epic Games Launcher.
 description: |
     Heroic is an Open Source Game Launcher for Linux, Windows and MacOS (for both Native and Windows Games using Crossover). Right now it supports launching games from the Epic Games Store using Legendary, a CLI alternative to the Epic Games Launcher. Heroic is built with Web Technologies like: TypeScript, React, NodeJS and Electron.
@@ -28,7 +29,6 @@ builddeps  :
     - cups-devel
     - git
     - yarn
-networking : yes
 setup      : |
     yarn install
 build      : |
