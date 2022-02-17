@@ -5,7 +5,7 @@ This project provides build artifacts for packaging Heroic for Solus Linux. If y
 
 # Installation
 ## From .eopkg Release
-1. Download the latest .eopkg from [releases](https://github.com/mdmellor/heroic-games-solus/releases).
+1. Download the latest .eopkg from [releases](https://github.com/infinitymdm/heroic-games-solus/releases).
 2. Open a terminal and `cd` to the directory where the file was downloaded.
 3. Install using `sudo eopkg it heroic-games-launcher-X.X.X-X-X-x86_64.eopkg`. 
 
