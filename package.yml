@@ -34,6 +34,7 @@ install    : |
     cp -R ./dist/linux-unpacked/* $installdir/$heroicdir/
     ln -s $heroicdir/heroic $installdir/usr/bin/heroic
     ln -s $heroicdir/resources/app.asar.unpacked/build/bin/linux/legendary $installdir/usr/bin/legendary
+    ln -s $heroicdir/resources/app.asar.unpacked/build/bin/linux/gogdl $installdir/usr/bin/gogdl
 
     # Copy icon
     install -Dm00644 ./dist/linux-unpacked/resources/app.asar.unpacked/build/icon.png $installdir/usr/share/icons/hicolor/512x512/apps/heroic.png
