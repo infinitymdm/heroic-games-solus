@@ -1,8 +1,9 @@
 name       : heroic-games-launcher
-version    : 2.2.0
+version    : 2.2.1
 release    : 1
 source     :
-    - https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/archive/refs/tags/v2.2.0.tar.gz : 3de6203402d0d3a797efaceab22fd1f80bd047ac2b305c80993658999ba74e84
+    - https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher/archive/refs/tags/v2.2.1.tar.gz : 86c3f297f22540908338165dd8e84a4287cb533897bf2aed7c5ed9c675ad6280
+homepage   : https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
 license    : GPL-3.0-or-later
 component  : games
 networking : yes
