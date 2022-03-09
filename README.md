@@ -5,7 +5,7 @@ This project provides build artifacts for packaging Heroic for Solus Linux. If y
 
 # Installation
 ## From Software Center (coming soon!)
-Open the Software Center and install "heroic-games-launcher". Click install. Enjoy!
+Open the Software Center and search for "heroic-games-launcher". Click install. Enjoy!
 
 ## From Terminal (coming soon!)
 Open a terminal and execute `sudo eopkg it heroic-games-launcher`.
