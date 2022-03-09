@@ -4,6 +4,12 @@ Heroic is an open source alternative to the Epic Games Store. You can read more 
 This project provides build artifacts for packaging Heroic for Solus Linux. If you want to use Heroic on Solus, you've come to the right place. 
 
 # Installation
+## From Software Center (coming soon!)
+Open the Software Center and search for "heroic-games-launcher". Click install. Enjoy!
+
+## From Terminal (coming soon!)
+Open a terminal and execute `sudo eopkg it heroic-games-launcher`.
+
 ## From .eopkg Release
 1. Download the latest .eopkg from [releases](https://github.com/infinitymdm/heroic-games-solus/releases).
 2. Open a terminal and `cd` to the directory where the file was downloaded.
